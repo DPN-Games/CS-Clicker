@@ -55,3 +55,25 @@ Buildings
 		cost:200 views
 		on tick:yield 0.5 views
 		req:200 views:earned
+	*stream|streams
+		name:Mixer Stream|Mixer Streams
+		desc:Another Crappy Livestream
+		icon:icons[3,2]
+		cost:
+		on tick:yield:
+		req:
+	*sound|sounds
+		name:Sound Button
+		desc:Another Button to Spam
+		icon:icons[3,3]
+		cost:
+		on tick:yield:
+		req:
+	*graphic|graphics
+		name:GFX Button
+		desc:A More Advanced Spammable Button
+		icon:icons[3,4]
+		cost:
+		on tick:yield:
+		req:
+	

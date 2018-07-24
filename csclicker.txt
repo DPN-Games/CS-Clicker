@@ -36,3 +36,22 @@ Resources
 		icon:icons[0,1]
 		class:noBackground
 		hidden when 0
+
+Buildings
+	*TEMPLATE
+		on click:anim glow
+		
+	*discordPost|discordPosts
+		name:Discord Post|Discord Posts
+		desc:A post to the CSCord.<//><b>Effect:</b><.>Produces 1 view every 10 seconds.
+		icon:icons[3,0]
+		cost:100 views
+		on tick:yield 0.1 view
+		unlocked
+	*tweet|tweets
+		name:Tweet|Tweets
+		desc:Posts a tweet to @cs188.<//><b>Effect:</b><.>Produces 1 view every 2 seconds.
+		icon:icons[3,1]
+		cost:200 views
+		on tick:yield 0.5 views
+		req:200 views:earned

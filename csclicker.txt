@@ -36,6 +36,12 @@ Resources
 		icon:icons[0,1]
 		class:noBackground
 		hidden when 0
+	*youtubeSub|youtubeSubs|youtubeSubscriber|youtubeSubscribers
+		name:Youtube Subscriber|Youtube Subscribers
+		desc:Moving up in the world of Youtube!
+		icon:icons[0,2]
+		class:noBackground
+		
 
 Buildings
 	*TEMPLATE

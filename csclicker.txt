@@ -76,4 +76,24 @@ Buildings
 		cost:
 		on tick:yield:
 		req:
-	
+	*genergy|genergies
+		name:Genergy
+		desc:Energy to Keep You Going
+		icon:icons[3,5]
+		cost:
+		on tick:yield:
+		req:
+	*Wringles|Wringles
+		name:Wringles
+		desc:The Best Type Are Pizza Flavored
+		icon:icons[3,6]
+		cost:
+		on tick:yield:
+		req:
+	*Video|Videos
+		name: New Video
+		desc:Wow! A New Poop!
+		icon:icons[3,7]
+		cost:
+		on tick:yield:
+		req:	

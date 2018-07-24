@@ -1,0 +1,38 @@
+Let's make a game!
+	name:CS Clicker
+	by:DPN Games
+	desc: Be CS and get views by pooping, streaming, and interacting on social media!
+	created:24/7/2018
+	updated:24/7/2018
+	version:0.1
+Settings
+	background: [url]
+	building cost increase:115%
+	building cost refund:50%
+	spritesheet:icons, 48 by 48, [url]
+	stylesheet: [url]
+Buttons
+	*csButton
+		name:Get a manual view
+		desc:Click your face to generate a view!
+		on click:anim icon wobble
+		on click:yield 1 view
+		icon:[url]
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
+Resources
+	*view|views
+		name:View|Views
+		desc: Everyone knows the more views you have the cooler you are!
+		icon:icons[0,0]
+		class:noBackground
+		show earned
+	*mixerSub|mixerSubs|mixerSubcriber|mixerSubscribers
+		name:Mixer Subscriber|Mixer Subscribers
+		desc:These aren't easy to get, so treat them with love!
+		icon:icons[0,1]
+		class:noBackground
+		hidden when 0

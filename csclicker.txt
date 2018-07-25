@@ -65,41 +65,41 @@ Buildings
 		name:Mixer Stream|Mixer Streams
 		desc:Another Crappy Livestream
 		icon:icons[3,2]
-		cost:
-		on tick:yield:
+		cost:400 views
+		on tick:yield: 5 views
 		req:
 	*sound|sounds
 		name:Sound Button
 		desc:Another Button to Spam
 		icon:icons[3,3]
-		cost:
-		on tick:yield:
+		cost:800 views
+		on tick:yield: 12 views
 		req:
 	*graphic|graphics
 		name:GFX Button
 		desc:A More Advanced Spammable Button
 		icon:icons[3,4]
-		cost:
-		on tick:yield:
+		cost:1600
+		on tick:yield: 90 views
 		req:
 	*genergy|genergies
 		name:Genergy
 		desc:Energy to Keep You Going
 		icon:icons[3,5]
-		cost:
-		on tick:yield:
+		cost:3200
+		on tick:yield: 300 views
 		req:
 	*Wringles|Wringles
 		name:Wringles
 		desc:The Best Type Are Pizza Flavored
 		icon:icons[3,6]
-		cost:
-		on tick:yield:
+		cost:6400
+		on tick:yield: 1000 views
 		req:
 	*Video|Videos
 		name: New Video
 		desc:Wow! A New Poop!
 		icon:icons[3,7]
-		cost:
-		on tick:yield:
+		cost:12800
+		on tick:yield: 4000 views
 		req:	
